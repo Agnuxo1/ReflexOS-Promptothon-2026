@@ -24,6 +24,7 @@ jobs:
           unzip -oq /tmp/reflexos.zip -d .
           rm -rf .bootstrap
           rm -f .github/workflows/bootstrap.yml
+          rm -f .github/workflows/tests.yml
       - name: Commit source tree
         shell: bash
         run: |
