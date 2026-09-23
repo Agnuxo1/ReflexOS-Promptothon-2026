@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.reflexos/
+*.pyc
+.env
+jev_state.json
+jev_questions.json
+_local/
