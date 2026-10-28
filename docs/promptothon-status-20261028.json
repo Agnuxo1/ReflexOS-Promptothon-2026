@@ -1,0 +1,20 @@
+{
+  "observed_utc": "2026-10-28T08:51:43.773580+00:00",
+  "source": "official Kaggle API, read-only",
+  "metadata": {
+    "ref": "https://www.kaggle.com/competitions/promptothon-2026-ai-edition",
+    "title": "PROMPTOTHON 2026: AI Edition",
+    "deadline": "2026-09-23 18:30:00",
+    "new_entrant_deadline": "None",
+    "merger_deadline": "2026-09-23 18:30:00",
+    "user_has_entered": "True",
+    "team_count": "3",
+    "evaluation_metric": ""
+  },
+  "submissions": {
+    "n_returned": 0,
+    "best_public_returned": null,
+    "rows": [],
+    "note": "API submission rows are not a complete hackathon Writeup receipt inventory."
+  }
+}

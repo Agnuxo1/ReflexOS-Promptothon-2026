@@ -2,6 +2,13 @@
 
 **Promptothon 2026 · LLMs & Automation**
 
+**Competition closed.** The official Kaggle API deadline is **23 September 2026,
+18:30 UTC (20:30 Madrid)**. This repository is retained as the project archive;
+no new competition entry is being attempted. The 28 October API check returns
+zero standard submission rows, which does not establish whether a hackathon
+Writeup was submitted. An accepted Writeup receipt, final judging result and
+prize remain **unverified**. [Closure evidence](docs/CLOSURE.md).
+
 > Use the smallest intelligence necessary — and prove when escalation is justified.
 
 ReflexOS is a reproducible cognitive orchestration layer for AI agents. Instead of sending every task to the largest model, it executes exact work with deterministic tools, consults a bounded semantic router only when useful, starts every generative task on a low-cost **Luna** tier, and unlocks **Sol** or **Astra** only after observable acceptance-gate failure.
