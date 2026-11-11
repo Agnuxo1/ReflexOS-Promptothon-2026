@@ -33,6 +33,10 @@ The competition project adds a clean provider abstraction, safe deterministic sk
 
 **Contents** — [The problem](#the-problem) · [Background](#background) · [Architecture](#architecture) · [Reproducible benchmark](#reproducible-benchmark) · [Quick start](#quick-start) · [Optional TypeSafe JEV integration](#optional-typesafe-jev-integration) · [Deterministic skills](#deterministic-skills) · [Acceptance checks](#acceptance-checks) · [Why this fits Promptothon 2026](#why-this-fits-promptothon-2026) · [Test evidence](#test-evidence) · [Repository layout](#repository-layout) · [Honest limitations](#honest-limitations) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Proposed next steps (not commitments)](#proposed-next-steps-not-commitments) · [Competition source](#competition-source) · [License](#license) · [Bibliography](#bibliography)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> ReflexOS sends exact work to deterministic tools and escalates generative tasks only after observable acceptance-check failures. Verified caching, bounded calls and a low-cost first tier provide concrete mechanisms for avoiding unnecessary model use. The <a href="#reproducible-benchmark">credential-free benchmark</a> makes the routing policy reproducible; its reported token and cost-unit reductions are simulator results that require separate real-provider evaluation.</sub>
+<!-- impact-note:end -->
+
 ## The problem
 
 <p align="center"><img src="docs/readme/02-problem.gif" alt="Bars for the simulated tokens and cost units per call of the Luna, Sol and Astra tiers" width="100%"><br><sub>Fig. 1 — Simulated tier budgets. Source: src/reflexos/providers.py.</sub></p>
